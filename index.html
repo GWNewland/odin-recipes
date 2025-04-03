@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin Recipes</title>
 </head>
 <body>
     <h1><strong>Directory</strong></h1>
-    <ul>
-        <li><a href="recipes/pizza.html" target="_self" rel="noopener noreferrer">Pizza</a></li>
-        <li><a href="recipes/lasagna.html" target="_self" rel="noopener noreferrer">Lasagna</a></li>
-        <li><a href="recipes/ribs.html" target="_self" rel="noopener noreferrer">BBQ Ribs</a></li>
-    </ul>
+    <div class="flex-container">
+        <div class="flex-item"><a href="recipes/boulevardier.html" target="_self" rel="noopener noreferrer"><img src="images/boulevardier.webp" alt="Boulevardier">Boulevardier</a></div>
+        <div class="flex-item"><a href="recipes/irish-coffee.html" target="_self" rel="noopener noreferrer"><img src="images/irish-coffee.webp" alt="Irish Coffee">Irish Coffee</a></div>
+        <div class="flex-item"><a href="recipes/manhattan.html" target="_self" rel="noopener noreferrer"><img src="images/manhattan.webp" alt="Manhattan">Manhattan</a></div>
+    </div>
+    
+    <div class="disclaimer" >
+        <block >These recipes were found at <a href="https://allrecipes.com" target="_blank" rel="noopener noreferrer">allrecipes.com</a> and are transcribed, haphazardly, here as an html practice project</block>
+        <a href="../index.html" target="_self" rel="noopener noreferrer" >Return to Recipe Index</a>
+    </div>
 </body>
 </html>
